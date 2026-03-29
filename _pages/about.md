@@ -20,28 +20,23 @@ announcements:
 latest_posts:
   enabled: false
 ---
+Hi! I am Sina, a current PhD student at the University of Maryland, under the supervision of Prof. Jin-Oh Hahn.
+I focus on mathematical modelling and machine learning for physiological and clinical data.
 
-I am a biomedical engineering researcher focused on machine learning for physiological time series and multimodal clinical data, with experience developing data driven models for cardiovascular health using ECG, PPG, and ABP signals.
 
-I am currently a PhD student in Mechanical Engineering at the University of Maryland, where I work on monitoring, diagnosis, and tracking of cardiovascular disease. My work spans wearable sensing, waveform analysis, cardiovascular system modeling, and machine learning for hemodynamic monitoring.
 
 ## Research interests
 
-- Physiological time series modeling
-- Wearable cardiovascular sensing
-- Hemodynamic monitoring
-- Machine learning for biomedical signals
 - In silico cardiovascular modeling
+- Hemodynamic monitoring algorithms
+- Physiological time series analysis
+- Wearable cardiovascular sensing
+
 
 ## Current and recent work
 
-- Deep learning enabled diagnosis of vascular disease from non invasive arterial waveform data
-- Beat to beat stroke volume estimation using wearable ECG, PPG, and SCG features
-- Mathematical modeling relating the ballistocardiogram to aortic blood pressure
+- Development of blood volume monitoring algorithms for use in critical care
+- Modelling the ballistocardiogram and blood pressure waveform in pathophysiological conditions
 - Predictive modeling of blood pressure during hemorrhage and resuscitation
 - Modeling physiological responses to acute mental stress
-
-## Links
-
-- [CV](/assets/pdf/CV-Sina-Masoumi.pdf)
-- [Publications](/publications/)
+- Diagnosis of peripheral artery disease and aneurysm using puls volume recording waveforms
