@@ -1,12 +1,11 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: Publications in reverse chronological order.
+title: Publications
 nav: true
 nav_order: 2
 ---
 
-{% include bib_search.liquid %}
-
-{% bibliography %}
+<div class="publications">
+  {% bibliography %}
+</div>
