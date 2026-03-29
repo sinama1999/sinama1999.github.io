@@ -7,7 +7,6 @@ first_name: Sina
 middle_name: 
 last_name: Masoumi Shahrbabak
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Biomedical engineering researcher focused on mathematical modelling and machine learning for physiological time series,
   multimodal clinical data, wearable cardiovascular sensing, and hemodynamic monitoring.
