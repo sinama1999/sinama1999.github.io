@@ -6,12 +6,8 @@
   title = {In Silico Investigation of a Mathematical Model Relating the Ballistocardiogram to Aortic Blood Pressure},
   author = {Masoumi Shahrbabak, Sina and Mousavi, A. and Mukkamala, Ramakrishna and Hahn, Jin-Oh},
   journal = {IEEE Transactions on Biomedical Engineering},
-  volume = {73},
-  number = {1},
   year = {2026},
-  month = {Jan},
   doi = {10.1109/TBME.2025.3584979},
-  poster = {Poster-AAA.pdf},
   abstract = {Objective: To investigate the plausibility of a mathematical model of the ballistocardiogram (BCG) called the “BCG-blood pressure (BP) model” developed in our prior work. Methods: We conducted a rigorous in silico investigation of the BCG-BP model to assess the hypothesis that the BCG originates from the aortic BP gradients using a mathematical model of systemic arterial circulation that can simulate BP and blood flow wave propagation and reflection in 55 arteries in the arterial tree and the left heart. Results: The BCG-BP model employed the aortic BPs of the systemic arterial circulation model to predict the BCG close in morphology to the ground truth BCG computed as the change in the momentum of the blood in all arteries simulated by the systemic arterial circulation model. The root-mean-squared error and the r value between the two were 4.1% (3.5%-6.8%) and 0.978 (0.958-0.984) (median (IQR)). The errors in the BCG wave timings and normalized amplitudes were adequately small (timing errors<14% and amplitude errors<16% (median)). Conclusion: The relationship between the BCG and aortic BPs implied by the BCG-BP model may be plausible. Significance: The BCG is receiving increasing interest for ubiquitous cardiovascular health and disease monitoring by virtue of its ultra-convenient measurement. However, the detailed physiological meaning of the BCG and its relationship to arterial hemodynamics is unknown. The findings from this work can lead to new opportunities for the BCG as a window to view the alterations in aortic BP due to changes in cardiovascular health and disease.},
   selected = {true}
 }
@@ -21,13 +17,11 @@
   title={Physiology and enabling technologies for quantitative assessment of survivability during cold water immersion and rewarming: a review},
   author={Masoumi Shahrbabak, Sina and Bouzid, Zeineb and Inan, Omer T and Hahn, Jin-Oh},
   journal={Progress in Biomedical Engineering},
-  volume={7},
-  number={4},
   year={2025},
   doi = {10.1088/2516-1091/ae0c4b},
-  publisher={IOP Publishing},
-  selected = {true}
-}
+  selected = {true},
+  abstract = {Immersion in cold water alters physiological (including cardiovascular) state via complex interplay between external stressors (namely, hydrostatic pressure of ambient water and heat loss due to cold) and compensatory mechanisms in the body (namely, humoral and autonomic nervous system control). Prolonged immersion in cold water leads to life-threatening physiological states including death. In addition, rewarming can benefit or harm a casualty depending on the casualty’s physiological state and compensatory reserve. However, technology for assessing the survivability of a casualty impacted by cold water immersion does not exist. Toward the overarching goal of fostering the development of next-generation triage and treatment guidance technology for resuscitation after cold water immersion, the goal of this paper is to help establish a comprehensive understanding of cardiovascular responses to cold water immersion and rewarming as well as relevant physiological measurement technologies which may enable status assessment in future implementations. We review literature on the influence of water immersion, exposure to cold, and rewarming on cardiovascular physiology. We summarize the existing findings into a comprehensive mechanistic understanding of typical cardiovascular responses to cold water immersion and rewarming through time. Then, we review literature on the physiological measurement and physiological signal analytics technologies applicable to cold water immersion settings. We conclude the paper with a perspective on outstanding challenges and opportunities pertaining to physiological sensing and analytics to enable autonomous assessment and treatment guidance for resuscitation after cold water immersion.}
+  }
 
 @article{zhou2024synthetic,
   abbr = {TBME},
@@ -36,7 +30,7 @@
   journal={IEEE Transactions on Biomedical Engineering},
   doi = {10.1109/TBME.2024.3453121},
   year={2024},
-  publisher={IEEE}
+  abstract={Objective: To develop a novel synthetic multi-modal variable capable of capturing cardiovascular responses to acute mental stress and the stress-mitigating effect of transcutaneous median nerve stimulation (TMNS), as an initial step toward the overarching goal of enabling closed-loop controlled mitigation of the physiological response to acute mental stress. Methods: Using data collected from 40 experiments in 20 participants involving acute mental stress and TMNS, we examined the ability of six plausibly explainable physio-markers to capture cardiovascular responses to acute mental stress and TMNS. Then, we developed a novel synthetic multi-modal variable by fusing the six physio-markers based on numerical optimization and compared its ability to capture cardiovascular responses to acute mental stress and TMNS against the six physio-markers in isolation. Results: The synthetic multi-modal variable showed explainable responses to acute mental stress and TMNS in more experiments (24 vs ≤19). It also exhibited superior consistency, balanced sensitivity, and robustness compared to individual physio-markers. Conclusion: The results showed the promise of the synthetic multi-modal variable as a means to measure cardiovascular responses to acute mental stress and TMNS. However, the results also suggested the potential necessity to develop a personalized synthetic multi-modal variable. Significance: The findings of this work may inform the realization of TMNS-enabled closed-loop control systems for the mitigation of sympathetic arousal to acute mental stress by leveraging physiological measurements that can readily be implemented in wearable form factors.},
 }
 
 @article{masoumi2025aaa,
@@ -45,8 +39,10 @@
   author = {Masoumi Shahrbabak, Sina and Youn, Byeng D. and Cheng, Han-Mo and Chen, Chi-Hung and Sung, Szu-Hsien and Mukkamala, Ramakrishna and Hahn, Jin-Oh},
   journal = {Sensors},
   year = {2025},
+  poster = {Poster-AAA.pdf},
   selected = {true},
-  do={10.3390/s25216678}
+  doi={10.3390/s25216678},
+  abstract = {This paper investigates the feasibility of diagnosing abdominal aortic aneurysm (AAA) via deep learning (DL)-enabled analysis of non-invasive arterial pulse waveform signals. We generated arterial blood pressure (BP) and pulse volume recording (PVR) waveform signals across a diverse synthetic patient cohort using a systemic arterial circulation model coupled with a viscoelastic model relating arterial BP to PVR while simulating a range of AAA severity levels. We confirmed the plausibility of the synthetic data by comparing the alterations in the simulated waveform signals due to AAA against previously reported in vivo findings. Then, we developed a convolutional neural network (CNN) with continuous property-adversarial regularization that can estimate AAA severity from brachial and tibial PVR signals. We evaluated the algorithm’s performance in comparison with an identical CNN trained on invasive arterial BP waveform signals. The DL-enabled PVR-based algorithm achieved robust AAA detection across different severity thresholds with area under the ROC curve values >0.89, and showed reasonable accuracy in severity estimation, though slightly lower than its invasive BP counterpart (MAE: 12.6% vs. 10.3%). These findings suggest that DL-enabled analysis of PVR waveform signals offers a non-invasive and cost-effective approach for AAA diagnosis, potentially enabling accessible screening through operator-agnostic and point-of-care technologies.}
 }
 
 @article{masoumi2024pad,
@@ -55,7 +51,8 @@
   author = {Masoumi Shahrbabak, Sina and Kim, S. and Youn, Byeng D. and Cheng, Han-Mo and Chen, Chi-Hung and Mukkamala, Ramakrishna and Hahn, Jin-Oh},
   journal = {Computers in Biology and Medicine},
   year = {2024},
-  doi={10.1016/j.compbiomed.2023.107813}
+  doi={10.1016/j.compbiomed.2023.107813},
+  abstract = {This paper intends to investigate the feasibility of peripheral artery disease (PAD) diagnosis based on the analysis of non-invasive arterial pulse waveforms. We generated realistic synthetic arterial blood pressure (BP) and pulse volume recording (PVR) waveform signals pertaining to PAD present at the abdominal aorta with a wide range of severity levels using a mathematical model that simulates arterial blood circulation and arterial BP-PVR relationships. We developed a deep learning (DL)-enabled algorithm that can diagnose PAD by analyzing brachial and tibial PVR waveforms, and evaluated its efficacy in comparison with the same DL-enabled algorithm based on brachial and tibial arterial BP waveforms as well as the ankle-brachial index (ABI). The results suggested that it is possible to detect PAD based on DL-enabled PVR waveform analysis with adequate accuracy, and its detection efficacy is close to when arterial BP is used (positive and negative predictive values at 40 % abdominal aorta occlusion: 0.78 vs 0.89 and 0.85 vs 0.94; area under the ROC curve (AUC): 0.90 vs 0.97). On the other hand, its efficacy in estimating PAD severity level is not as good as when arterial BP is used (r value: 0.77 vs 0.93; Bland-Altman limits of agreement: −32%-+32 % vs −20%-+19 %). In addition, DL-enabled PVR waveform analysis significantly outperformed ABI in both detection and severity estimation. In sum, the findings from this paper suggest the potential of DL-enabled non-invasive arterial pulse waveform analysis as an affordable and non-invasive means for PAD diagnosis.}
 }
 
 @article{zhou2026stress,
@@ -64,6 +61,38 @@
   author = {Zhou, Y. and Masoumi Shahrbabak, Sina and Rezaei, P. and Bahrami, R. and Rahman, F. N. and Sanchez-Perez, J. A. and Gazi, A. H. and Inan, O. T. and Hahn, Jin-Oh},
   journal = {Journal of Dynamic Systems, Measurement, and Control},
   doi = {10.1115/1.4070030},
-  year = {2026}
+  year = {2026},
+  abstract = {Cardiovascular arousal to acute mental stressors (AMSs) poses significant risks to health and contributes to cardiovascular and neurological disorders. Transcutaneous median nerve stimulation (TMNS) is an emerging noninvasive intervention with the potential to enable just-in-time mitigation of cardiovascular arousal to acute mental stressors. However, no prior work has addressed how to best control TMNS for this purpose. A critical limitation is the lack of basic knowledge of the dynamics between acute mental stressors and TMNS versus cardiovascular arousal. As an initial step toward investigating closed-loop controlled just-in-time TMNS for mitigating cardiovascular arousal to acute mental stressors, we developed and evaluated a data-driven virtual experiment generator (VEG) which can replicate the dynamics between acute mental stressors and TMNS versus cardiovascular arousal. In terms of a novel synthetic multimodal variable (SMV) intended to serve as feedback for just-in-time TMNS, we derived a fourth-order linear decoupled multi-input-single-output (MISO) representation to replicate the dynamics between acute mental stressors and TMNS as inputs versus SMV as output using data collected from 23 experiments. The representation could (i) replicate SMV responses in all experiments when parameterized with the experiment-specific parametric probability density functions (PDFs) and (ii) generate plausible virtual experiments when parameterized with the experiment-aggregated parametric PDFs. In sum, the VEG has the potential as a virtual platform to develop and evaluate closed-loop controlled just-in-time TMNS for mitigating acute mental stressor-induced cardiovascular arousal with SMV as feedback.}
 }
+
+@article{doi:10.1161/JAHA.123.031981,
+  abbr = {JAHA},
+  author = {Sel, Kaan and Osman, Deen and Zare, Fatemeh and Masoumi Shahrbabak, Sina and Brattain, Laura and Hahn, Jin-Oh and Inan, Omer T. and Mukkamala, Ramakrishna and Palmer, Jeffrey and Paydarfar, David and Pettigrew, Roderic I. and Quyyumi, Arshed A. and Telfer, Brian and Jafari, Roozbeh},
+  title = {Building Digital Twins for Cardiovascular Health: From Principles to Clinical Impact},
+  journal = {Journal of the American Heart Association},
+  year = {2024},
+  doi = {10.1161/JAHA.123.031981},
+  abstract = {The past several decades have seen rapid advances in diagnosis and treatment of cardiovascular diseases and stroke, enabled by technological breakthroughs in imaging, genomics, and physiological monitoring, coupled with therapeutic interventions. We now face the challenge of how to (1) rapidly process large, complex multimodal and multiscale medical measurements; (2) map all available data streams to the trajectories of disease states over the patient's lifetime; and (3) apply this information for optimal clinical interventions and outcomes. Here we review new advances that may address these challenges using digital twin technology to fulfill the promise of personalized cardiovascular medical practice. Rooted in engineering mechanics and manufacturing, the digital twin is a virtual representation engineered to model and simulate its physical counterpart. Recent breakthroughs in scientific computation, artificial intelligence, and sensor technology have enabled rapid bidirectional interactions between the virtual‐physical counterparts with measurements of the physical twin that inform and improve its virtual twin, which in turn provide updated virtual projections of disease trajectories and anticipated clinical outcomes. Verification, validation, and uncertainty quantification builds confidence and trust by clinicians and patients in the digital twin and establishes boundaries for the use of simulations in cardiovascular medicine. Mechanistic physiological models form the fundamental building blocks of the personalized digital twin that continuously forecast optimal management of cardiovascular health using individualized data streams. We present exemplars from the existing body of literature pertaining to mechanistic model development for cardiovascular dynamics and summarize existing technical challenges and opportunities pertaining to the foundation of a digital twin.}
+}
+
+@article{s25051371,
+  abbr = {Sensors},
+  author = {Zhou, Yuanyuan and Masoumi Shahrbabak, Sina and Bahrami, Rayan and Rahman, Farhan N. and Sanchez-Perez, Jesus Antonio and Gazi, Asim H. and Inan, Omer T. and Hahn, Jin-Oh},
+  title = {Non-Pharmacological Mitigation of Acute Mental Stress-Induced Sympathetic Arousal: Comparison Between Median Nerve Stimulation and Auricular Vagus Nerve Stimulation},
+  journal = {Sensors},
+  year = {2025},
+  abstract = {Acute mental stress is a common experience in daily life, significantly affecting both physiological and psychological well-being. While traditional pharmacological interventions can be effective, they often accompany undesirable side effects. Non-pharmacological alternatives, such as non-invasive transcutaneous peripheral neuromodulation, have promise in mitigating acute stress-induced arousal, possibly with fewer side effects. Median nerve stimulation (MNS) and auricular vagus nerve stimulation (AVNS), in particular, have demonstrated notable potential. However, efficacy and mechanism of action pertaining to MNS and AVNS remain largely unknown. This paper comparatively investigated MNS and AVNS in terms of efficacy and mechanism of action in the context of mitigating acute stress-induced arousal. Using an experimental dataset collected from 19 healthy participants who experienced acute mental stressors as well as MNS and AVNS, we showed that (i) MNS and AVNS are both effective in mitigating acute stress-induced cardiovascular arousal with MNS modestly superior to AVNS in terms of a synthetic multi-modal variable derived from physio-markers representing heart rate, blood pressure, stroke volume, cardiac output, and peripheral vasoconstriction: 74% vs. 71% in explainability; 86% vs. 69% in stimulation consistency; 0.77 vs. 0.40 in stimulation sensitivity; and 34% vs. 19% in stimulation effectiveness, respectively; and that (ii) MNS and AVNS mitigate acute stress-induced cardiovascular arousal in a distinct mechanism of action: MNS primarily mitigates the arousal pertaining to the physio-markers representing heart rate and peripheral vasoconstriction, while AVNS mitigates the arousal pertaining to the physio-markers representing heart rate, blood pressure, stroke volume, cardiac output, and peripheral vasoconstriction. These findings may help to support future device development for addressing acute mental stress-induced arousal through MNS or AVNS, and they pave the way toward a better understanding of how to quantify the efficacy of such interventions.},
+  doi = {10.3390/s25051371}
+}
+
+@ARTICLE{11277274,
+  abbr = {CSL},
+  author={Kao, Yi-Ming and Rezaei, Parham and Masoumi Shahrbabak, Sina and Alanano Pepino, Jeremy and Sebastian Kirk Shogren, Ian and Wang, Yang and Tomas Reisner, Andrew and Hahn, Jin-Oh},
+  journal={IEEE Control Systems Letters}, 
+  title={Blood Pressure Prediction During Blood Transfusion: A Population-Informed Multi-Modal Sequential Inference Approach}, 
+  year={2025},
+  abstract={Blood pressure (BP) management is a critical component of blood transfusion, but no mature technology capable of predicting BP response to blood transfusion exists. This letter concerns the development and preliminary in vivo testing of a BP prediction method applicable to hemorrhage and blood transfusion. Key obstacles are (i) large inter-individual variability in the BP response to blood transfusion, (ii) unknown hemorrhage, and (iii) input/state-dependent observability. To cope with these challenges, we developed a multi-modal sequential inference-enabled BP prediction method built upon a mathematical model of patient physiology parameterized by population-informed prior. The method infers patient-specific physiological state and hemorrhage, and uses them to predict future BP in a patient receiving blood transfusion. The in vivo testing of the method using the data collected from large animals undergoing hemorrhage and blood transfusion showed that it could adequately predict mean arterial BP with median absolute errors for 5-min and 15-min predictions of 3.1 mmHg and 7.4 mmHg as well as adequately infer physiological state and hemorrhage: all the hemorrhage events were detected with <3.5 min delay, with median F1 score of 85%. In sum, the prediction of BP response to blood transfusion may be feasible, even in the presence of unknown hemorrhage.},
+  doi={10.1109/LCSYS.2025.3640066},
+}
+
 
