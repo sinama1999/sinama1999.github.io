@@ -20,7 +20,7 @@ announcements:
 latest_posts:
   enabled: false
 ---
-Hi! I am Sina, a current PhD student at the University of Maryland, under the supervision of Prof. Jin-Oh Hahn.
+Hi! I am Sina Masoumi Shahrbabak, a current PhD student at the University of Maryland, under the supervision of Prof. Jin-Oh Hahn.
 I focus on mathematical modelling and machine learning for physiological and clinical data.
 
 
