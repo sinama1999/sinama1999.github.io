@@ -1,189 +1,127 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Sina Masoumi Shahrbabak
+  headline: PhD Researcher in Biomedical Engineering
+  location: College Park, MD
+  email: smasoumi@umd.edu
+  phone: "+1 240 960 4485"
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: sina-masoumi-1999s
+    - network: Google Scholar
+      username: rzZ2jhYAAAAJ
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+    Summary:
+      - bullet: >-
+          PhD researcher in biomedical engineering focused on machine learning for
+          physiological time-series and multimodal clinical data. Experience developing
+          data-driven models for cardiovascular health using ECG, PPG, and blood pressure
+          waveforms. Strong background in Python, with publications in biomedical
+          engineering venues.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+    Education:
+      - institution: University of Maryland
+        location: College Park, MD
+        area: Monitoring, diagnosis, and modelling of cardiovascular disease
+        degree: Doctor of Philosophy (PhD), Mechanical Engineering
         highlights:
-          - Description 1.
-          - Description 2.
+          - Expected Dec 2027.
+
+      - institution: University of Maryland
+        location: College Park, MD
+        area: Mechanical Engineering
+        degree: Master of Science
+        highlights:
+          - "May 2025. GPA: 3.9."
+          - "Notable Courses: Computational Statistics; Machine Learning: Theory and Applications; Applied Machine Learning for Engineering; Optimal Estimation of Dynamical Systems."
+
+      - institution: Sharif University of Technology
+        area: Mechanical Engineering
+        degree: Bachelor of Science
+        highlights:
+          - "2022. GPA: 3.9."
+
+    Technical Skills:
+      - label: Programming Languages
+        details: Python, R, MATLAB
+      - label: Deep Learning & ML Frameworks
+        details: PyTorch, Optuna, Scikit-learn
+      - label: Methodologies & Algorithms
+        details: Signal Processing, Time-Series Analysis, CNNs, RNNs, LSTMs, GRUs, Bayesian Inference & MCMC
+      - label: Dynamical Systems & Control
+        details: System Identification, State Estimation, Kalman Filtering, Nonlinear Control
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: University of Maryland
+        position: Graduate Research Assistant
+        location: College Park, MD
+        start_date: 2023
+        end_date: present
         highlights:
-          - Relativity
-          - Description 2.
+          - "**Wearable Hemodynamic Monitoring**"
+          - Collected multimodal physiological data from 20 swine and developed signal-processing and machine-learning pipelines for more than 300,000 cardiac cycles.
+          - Developed wearable stroke volume estimation models using ECG, PPG, and SCG, achieving a median absolute percentage error of 8.8% during hemorrhage and blood transfusion.
+          - "**Vascular Disease Detection**"
+          - Designed CNN models to detect abdominal aortic aneurysm and peripheral artery disease from blood pressure waveforms.
+          - "**Cardiovascular Mathematical Modeling**"
+          - Developed mathematical and computational models of cardiovascular dynamics, arterial pressure propagation, and ballistocardiography.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Massachusetts General Hospital
+        position: Research Intern
+        location: Boston, MA
+        summary: Summer 2025
         highlights:
-          - Description 1.
-          - Description 2.
+          - "**Mathematical Modeling of Vasoactive Medication Dose Response**"
+          - Developed a Bayesian inference framework to correct medication dose-change timing errors in retrospective ICU data.
+          - Analyzed continuous blood pressure and vasoactive medication records to characterize patient-specific dose-response relationships.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+    Mentorship:
+      - bullet: >-
+          **University of Maryland, College Park, Spring 2026.** Mentored an undergraduate
+          research intern and a high school student conducting projects on
+          ballistocardiogram simulation during cold-water immersion and
+          pulse-transit-time-based blood pressure monitoring.
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+    Selected Publications (5 of 11):
+      - bullet: >-
+          **Masoumi Shahrbabak, S.**, Zhou, Y., Bahrami, R., Jafari Ozoumchelooei, H.,
+          Tangolar, D., Rezaei, P., Kim, N., Vandenberge, J., Perez, R., Burch, N., Kim,
+          D., Johnson, C. A., Jr., Tran, D., Vetri, R., Kimball, J. P., Mukkamala, R.,
+          Wu, Z. J., Inan, O. T., & Hahn, J. O. (2026). Benchmarking wearable
+          physio-markers for stroke volume tracking during hemorrhage and blood
+          transfusion in a swine model. *Under review.*
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+      - bullet: >-
+          **Masoumi Shahrbabak, S.**, Kim, S., Youn, B. D., Cheng, H. M., Chen, C. H.,
+          Mukkamala, R., & Hahn, J. O. (2024). Peripheral artery disease diagnosis based
+          on deep learning-enabled analysis of non-invasive arterial pulse waveforms.
+          *Computers in Biology and Medicine.*
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+      - bullet: >-
+          **Masoumi Shahrbabak, S.**, Youn, B. D., Cheng, H. M., Chen, C. H., Sung, S.
+          H., Mukkamala, R., & Hahn, J. O. (2025). Deep learning-enabled diagnosis of
+          abdominal aortic aneurysm using pulse volume recording waveforms: an in-silico
+          study. *Sensors.*
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - bullet: >-
+          **Masoumi Shahrbabak, S.**, Mousavi, A., Mukkamala, R., & Hahn, J. O. (2025).
+          In silico investigation of a mathematical model relating the
+          ballistocardiogram to aortic blood pressure. *IEEE Transactions on Biomedical
+          Engineering.*
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - bullet: >-
+          Zhou, Y., **Masoumi Shahrbabak, S.**, Rezaei, P., Bahrami, R., Rahman, F. N.,
+          Sanchez-Perez, J. A., Gazi, A. H., Inan, O. T., & Hahn, J. O. (2026). A virtual
+          experiment generator to replicate cardiovascular responses to acute mental
+          stress and transcutaneous median nerve stimulation. *Journal of Dynamic
+          Systems, Measurement, and Control.*
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+    Selected Presentations:
+      - bullet: >-
+          Workshop Speaker, "Digital Health Technologies and AI for Studying and
+          Predicting Episodic Health Events," IEEE-EMBS International Conference on
+          Biomedical and Health Informatics, 2025.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    "Honors & Awards":
+      - bullet: IEEE BHI NSF-EMBS-Google Young Professional NextGen Scholar, 2025.
