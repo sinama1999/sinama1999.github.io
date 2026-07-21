@@ -70,7 +70,8 @@ cv:
       - company: Massachusetts General Hospital
         position: Research Intern
         location: Boston, MA
-        summary: Summer 2025
+        start_date: 2025-06
+        end_date: 2025-08
         highlights:
           - "**Mathematical Modeling of Vasoactive Medication Dose Response**"
           - Developed a Bayesian inference framework to correct medication dose-change timing errors in retrospective ICU data.
