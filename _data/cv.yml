@@ -23,24 +23,28 @@ cv:
     Education:
       - institution: University of Maryland
         location: College Park, MD
+        start_date: 2023
+        end_date: present
         area: Monitoring, diagnosis, and modelling of cardiovascular disease
-        degree: Doctor of Philosophy (PhD), Mechanical Engineering
-        highlights:
-          - Expected Dec 2027.
+        degree: Doctor of Philosophy (PhD), Mechanical Engineerin
 
       - institution: University of Maryland
         location: College Park, MD
         area: Mechanical Engineering
+        start_date: 2023
+        end_date: 2025
         degree: Master of Science
         highlights:
-          - "May 2025. GPA: 3.9."
+          - "GPA: 3.9."
           - "Notable Courses: Computational Statistics; Machine Learning: Theory and Applications; Applied Machine Learning for Engineering; Optimal Estimation of Dynamical Systems."
 
       - institution: Sharif University of Technology
         area: Mechanical Engineering
+        start_date: 2017
+        end_date: 2022
         degree: Bachelor of Science
         highlights:
-          - "2022. GPA: 3.9."
+          - "GPA: 3.9."
 
     Technical Skills:
       - label: Programming Languages
