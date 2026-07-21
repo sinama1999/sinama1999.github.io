@@ -1,11 +1,9 @@
 ---
-layout: page
+layout: cv
 permalink: /cv/
 title: CV
 nav: true
 nav_order: 3
+cv_format: rendercv
+cv_pdf: /assets/pdf/CV-Sina-Masoumi.pdf
 ---
-
-You can download my CV here:
-
-- [PDF CV](/assets/pdf/CV-Sina-Masoumi.pdf)
