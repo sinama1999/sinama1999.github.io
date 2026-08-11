@@ -14,26 +14,27 @@ cv:
   sections:
     Summary:
       - bullet: >-
-          PhD researcher in biomedical engineering focused on machine learning for
-          physiological time-series and multimodal clinical data. Experience developing
-          data-driven models for cardiovascular health using ECG, PPG, and blood pressure
-          waveforms. Strong background in Python, with publications in biomedical
-          engineering venues.
+          PhD researcher developing machine learning and signal processing methods for
+          physiological time-series and multimodal health data. Experienced in deep
+          learning, Bayesian inference, and cardiovascular modeling using ECG, PPG, SCG,
+          and blood-pressure waveforms. Published work spans wearable monitoring, medical
+          diagnostics, and clinical data analysis, with advanced proficiency in Python
+          and PyTorch.
 
     Education:
       - institution: University of Maryland
         location: College Park, MD
         start_date: 2023
-        end_date: present
+        end_date: Expected Dec 2027
         area: Monitoring, diagnosis, and modelling of cardiovascular disease
-        degree: Doctor of Philosophy (PhD), Mechanical Engineerin
+        degree: Doctor of Philosophy (PhD), Mechanical Engineering
 
       - institution: University of Maryland
         location: College Park, MD
         area: Mechanical Engineering
         start_date: 2023
-        end_date: 2025
-        degree: Master of Science
+        end_date: May 2025
+        degree: Master of Science, Mechanical Engineering
         highlights:
           - "GPA: 3.9."
           - "Notable Courses: Computational Statistics; Machine Learning: Theory and Applications; Applied Machine Learning for Engineering; Optimal Estimation of Dynamical Systems."
@@ -42,7 +43,7 @@ cv:
         area: Mechanical Engineering
         start_date: 2017
         end_date: 2022
-        degree: Bachelor of Science
+        degree: Bachelor of Science, Mechanical Engineering
         highlights:
           - "GPA: 3.9."
 
@@ -56,7 +57,7 @@ cv:
       - label: Dynamical Systems & Control
         details: System Identification, State Estimation, Kalman Filtering, Nonlinear Control
 
-    Experience:
+    Research Experience:
       - company: University of Maryland
         position: Graduate Research Assistant
         location: College Park, MD
