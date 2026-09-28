@@ -161,6 +161,163 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Featured TL55 explorer
+
+.tl55-feature {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(220px, 0.75fr);
+  gap: 2rem;
+  overflow: hidden;
+  margin: 1rem 0 2.5rem;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  border-radius: 1.25rem;
+  background:
+    radial-gradient(circle at 90% 15%, rgba(55, 185, 197, 0.25), transparent 45%),
+    linear-gradient(135deg, #07131f, #12283a);
+  box-shadow: 0 18px 45px rgba(7, 19, 31, 0.18);
+  color: white;
+
+  h2 {
+    margin: 0.8rem 0;
+    color: white;
+  }
+
+  p {
+    max-width: 38rem;
+    color: rgba(255, 255, 255, 0.76);
+    line-height: 1.65;
+  }
+}
+
+.tl55-feature__content {
+  position: relative;
+  z-index: 2;
+}
+
+.tl55-feature__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: #ff7068;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  span {
+    width: 0.55rem;
+    height: 0.55rem;
+    border-radius: 50%;
+    background: #ff7068;
+    box-shadow: 0 0 0 0 rgba(255, 112, 104, 0.5);
+    animation: tl55-beacon 2s infinite;
+  }
+}
+
+.tl55-feature__tags,
+.tl55-feature__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.tl55-feature__tags {
+  margin: 1.25rem 0;
+
+  span {
+    padding: 0.35rem 0.7rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 999px;
+    color: rgba(255, 255, 255, 0.82);
+    font-size: 0.75rem;
+  }
+}
+
+.tl55-feature__source {
+  padding: 0.6rem;
+  color: rgba(255, 255, 255, 0.82);
+
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.tl55-feature__visual {
+  position: relative;
+  display: grid;
+  min-height: 270px;
+  place-items: center;
+
+  img {
+    height: 240px;
+    padding: 0.8rem;
+    border-radius: 4rem;
+    background: rgba(255, 255, 255, 0.94);
+    transition: transform 300ms ease;
+  }
+}
+
+.tl55-feature:hover .tl55-feature__visual img {
+  transform: translateY(-4px);
+}
+
+.tl55-feature__pulse {
+  position: absolute;
+  bottom: 0.5rem;
+  left: -10%;
+  width: 120%;
+
+  path {
+    fill: none;
+    stroke: #37b9c5;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 700;
+    animation: tl55-wave 3.5s linear infinite;
+  }
+}
+
+@keyframes tl55-wave {
+  from {
+    stroke-dashoffset: 700;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes tl55-beacon {
+  70% {
+    box-shadow: 0 0 0 0.6rem rgba(255, 112, 104, 0);
+  }
+}
+
+@media (max-width: 767px) {
+  .tl55-feature {
+    grid-template-columns: 1fr;
+  }
+
+  .tl55-feature__visual {
+    min-height: 220px;
+
+    img {
+      height: 200px;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tl55-feature__badge span,
+  .tl55-feature__pulse path {
+    animation: none;
+  }
+}
+
 // Repositories
 
 @media (min-width: 768px) {
