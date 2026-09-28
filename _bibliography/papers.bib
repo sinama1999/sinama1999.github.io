@@ -6,7 +6,7 @@
   title = {In Silico Investigation of a Mathematical Model Relating the Ballistocardiogram to Aortic Blood Pressure},
   author = {Masoumi Shahrbabak, Sina and Mousavi, A. and Mukkamala, Ramakrishna and Hahn, Jin-Oh},
   journal = {IEEE Transactions on Biomedical Engineering},
-  year = {2026},
+  year = {2025},
   doi = {10.1109/TBME.2025.3584979},
   abstract = {Objective: To investigate the plausibility of a mathematical model of the ballistocardiogram (BCG) called the “BCG-blood pressure (BP) model” developed in our prior work. Methods: We conducted a rigorous in silico investigation of the BCG-BP model to assess the hypothesis that the BCG originates from the aortic BP gradients using a mathematical model of systemic arterial circulation that can simulate BP and blood flow wave propagation and reflection in 55 arteries in the arterial tree and the left heart. Results: The BCG-BP model employed the aortic BPs of the systemic arterial circulation model to predict the BCG close in morphology to the ground truth BCG computed as the change in the momentum of the blood in all arteries simulated by the systemic arterial circulation model. The root-mean-squared error and the r value between the two were 4.1% (3.5%-6.8%) and 0.978 (0.958-0.984) (median (IQR)). The errors in the BCG wave timings and normalized amplitudes were adequately small (timing errors<14% and amplitude errors<16% (median)). Conclusion: The relationship between the BCG and aortic BPs implied by the BCG-BP model may be plausible. Significance: The BCG is receiving increasing interest for ubiquitous cardiovascular health and disease monitoring by virtue of its ultra-convenient measurement. However, the detailed physiological meaning of the BCG and its relationship to arterial hemodynamics is unknown. The findings from this work can lead to new opportunities for the BCG as a window to view the alterations in aortic BP due to changes in cardiovascular health and disease.},
   selected = {true}
@@ -94,6 +94,26 @@
   year={2025},
   abstract={Blood pressure (BP) management is a critical component of blood transfusion, but no mature technology capable of predicting BP response to blood transfusion exists. This letter concerns the development and preliminary in vivo testing of a BP prediction method applicable to hemorrhage and blood transfusion. Key obstacles are (i) large inter-individual variability in the BP response to blood transfusion, (ii) unknown hemorrhage, and (iii) input/state-dependent observability. To cope with these challenges, we developed a multi-modal sequential inference-enabled BP prediction method built upon a mathematical model of patient physiology parameterized by population-informed prior. The method infers patient-specific physiological state and hemorrhage, and uses them to predict future BP in a patient receiving blood transfusion. The in vivo testing of the method using the data collected from large animals undergoing hemorrhage and blood transfusion showed that it could adequately predict mean arterial BP with median absolute errors for 5-min and 15-min predictions of 3.1 mmHg and 7.4 mmHg as well as adequately infer physiological state and hemorrhage: all the hemorrhage events were detected with <3.5 min delay, with median F1 score of 85%. In sum, the prediction of BP response to blood transfusion may be feasible, even in the presence of unknown hemorrhage.},
   doi={10.1109/LCSYS.2025.3640066},
+}
+
+@article{tangolar2026generalizability,
+  abbr = {CBM},
+  title = {Establishing Generalizability of Wearable-Enabled Blood Volume Decompensation Status Estimation Algorithms Using Transfer Learning},
+  author = {Tangolar, Demet and Bouzid, Zeineb and Yaldiz, Cem Okan and Kilic, Onur Selim and Kimball, Jacob P. and Rezaei, Parham and Masoumi Shahrbabak, Sina and Vandenberge, John and Zhou, Yuanyuan and Kim, Nancy and Tran, Douglas and Perez, Randy and Kim, Donghyeon and Burch, Nicholas and Bahrami, Rayan and Wu, Zhongjun J. and Hahn, Jin-Oh and Inan, Omer T.},
+  journal = {Computers in Biology and Medicine},
+  year = {2026},
+  doi = {10.1016/j.compbiomed.2026.111671},
+  abstract = {Timely assessment of blood volume decompensation status (BVDS) is essential for trauma intervention, particularly in prehospital and resource-limited settings. This work evaluates how BVDS estimation algorithms generalize across datasets, collection sites, and sensor implementations. Two controlled-hemorrhage datasets containing synchronized electrocardiogram, seismocardiogram, and photoplethysmogram signals were collected using a research-grade monitor and an FDA-cleared wearable patch. Multilayer perceptron and tree-based regression models were evaluated with several transfer-learning strategies, including decision-layer fine-tuning, end-to-end fine-tuning, and augmentation of a pretrained gradient-boosting model. Fine-tuning with non-ambulatory data reduced BVDS estimation errors relative to models trained only on wearable data. The results establish a data-efficient framework for transferring knowledge between controlled-hemorrhage datasets and support the development of wearable BVDS monitoring when labeled data are limited.}
+}
+
+@article{rezaei2026hemodynamic,
+  abbr = {Physiol. Meas.},
+  title = {Non-Invasive Hemodynamic Monitoring During Hemorrhage and Blood Transfusion: Opportunities and Challenges},
+  author = {Rezaei, Parham and Masoumi Shahrbabak, Sina and Vandenberge, John and Zhou, Yuanyuan and Tangolar, Demet and Kim, Nancy and Tran, Douglas and Perez, Randy and Kim, Donghyeon and Burch, Nicholas and Bouzid, Zeineb and Bahrami, Rayan and Kimball, Jacob P. and Kim, Chang-Sei and Wu, Zhongjun J. and Inan, Omer T. and Hahn, Jin-Oh},
+  journal = {Physiological Measurement},
+  year = {2026},
+  doi = {10.1088/1361-6579/ae5441},
+  abstract = {This study investigated whether blood volume decompensation status (BVDS) can be tracked through hemodynamic parameters and wearable-derived physio-markers. In nine pigs undergoing controlled hemorrhage and blood transfusion, arterial blood pressure, heart rate, stroke volume, and cardiac output were measured alongside electrocardiogram, photoplethysmogram, and seismocardiogram signals. Stroke volume and cardiac output tracked BVDS more consistently than blood pressure and heart rate. Wearable-derived markers based on left ventricular ejection time, pre-ejection period, photoplethysmogram amplitude, and heart rate showed strong monotonic relationships with stroke volume, cardiac output, and BVDS. Substantial inter-individual variability remained. The findings support the feasibility of wearable-enabled hemodynamic monitoring during hemorrhage and transfusion while identifying important challenges for generalization across individuals.}
 }
 
 

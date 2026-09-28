@@ -166,8 +166,8 @@ ul.task-list input[type="checkbox"] {
 .tl55-feature {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(220px, 0.75fr);
-  gap: 2rem;
+  grid-template-columns: minmax(0, 1fr) 170px;
+  gap: 1.5rem;
   overflow: hidden;
   margin: 1rem 0 2.5rem;
   padding: clamp(1.5rem, 4vw, 2.5rem);
@@ -248,13 +248,13 @@ ul.task-list input[type="checkbox"] {
 .tl55-feature__visual {
   position: relative;
   display: grid;
-  min-height: 270px;
+  min-height: 190px;
   place-items: center;
 
   img {
-    height: 240px;
-    padding: 0.8rem;
-    border-radius: 4rem;
+    height: 170px;
+    padding: 0.6rem;
+    border-radius: 3rem;
     background: rgba(255, 255, 255, 0.94);
     transition: transform 300ms ease;
   }
@@ -297,17 +297,13 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
   .tl55-feature {
     grid-template-columns: 1fr;
   }
 
   .tl55-feature__visual {
-    min-height: 220px;
-
-    img {
-      height: 200px;
-    }
+    display: none;
   }
 }
 
